@@ -1,10 +1,10 @@
 var name = prompt("Ismingizni kiriting")
-var age = prompt("Yoshingizni kiriting")
-var mXi1 = prompt("Misolni yeching 7+3= ")
-var mXi2 = prompt("Misolni yeching 9-5= ")
-var mXi3 = prompt("Misolni yeching 8*5= ")
-var mXi4 = prompt("Misolni yeching 8/2= ")
-var mXi5 = prompt("Misolni yeching 29%5= ")
+var age = +prompt("Yoshingizni kiriting")
+var mXi1 = +prompt("Misolni yeching 7+3= ")
+var mXi2 = +prompt("Misolni yeching 9-5= ")
+var mXi3 = +prompt("Misolni yeching 8*5= ")
+var mXi4 = +prompt("Misolni yeching 8/2= ")
+var mXi5 = +prompt("Misolni yeching 29%5= ")
 
 console.log("Sizning Ismingiz "+name+" yoshingiz "+age+" da")
 
